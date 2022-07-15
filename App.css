@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Merriweather:ital@0;1&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: teal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background-color: plum;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  width: 800px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.box h1 {
+  margin-top: 0;
+  font-family: 'Butterfly Kids', cursive;
+  font-size: 100px;
+}
+
+.box p {
+  margin: 2rem;
+  font-family: 'Merriweather', serif;
+}
+
+.box button {
+  background-color:white;
+  color: black;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  font-family: 'Merriweather', serif;
+  padding: 15px;
+  cursor: pointer;
+  transition: transform 0.2s linear;
+}
+
+.box button:active {
+  transform: scale(0.98);
+}
+
+.box button:focus {
+  outline: none;
+}
+
+.cartoon {
+  width: 80%;
+  padding-top: 25px;
+  pointer-events: none;
+} 
+
